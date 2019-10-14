@@ -44,7 +44,7 @@ More advanced installation issues, such as installing only partial dependencies 
 conda install -c pytorch -c fastai fastai
 ```
 
-This will install the `pytorch` build with the latest `cudatoolkit` version. If you need a higher or lower `CUDA XX` build (e.g. CUDA 9.0), following the instructions [here](https://pytorch.org/get-started/locally/), to install the desired `pytorch` build.
+This wil install the `pytorch` build with the latest `cudatoolkit` version. If you need a higher or lower `CUDA XX` build (e.g. CUDA 9.0), following the instructions [here](https://pytorch.org/get-started/locally/), to install the desired `pytorch` build.
 
 Note that JPEG decoding can be a bottleneck, particularly if you have a fast GPU. You can optionally install an optimized JPEG decoder as follows (Linux):
 
